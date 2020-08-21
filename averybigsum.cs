@@ -37,6 +37,6 @@ class Solution {
         textWriter.WriteLine(result);
 
         textWriter.Flush();
-        textWriter.Close();
+        textWriter.Close(); // test
     }
 }
