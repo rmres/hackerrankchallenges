@@ -20,7 +20,6 @@ class Solution {
         long sumMax = 0;
         Array.Sort(arr);
         for (int i = 1; i < arr.Length; i++) {
-
             sumMax += arr[i];
         }
         for (int i = 0; i < arr.Length-1; i++) {
