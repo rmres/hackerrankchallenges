@@ -10,9 +10,9 @@ class Solution {
         try {
         int num = Convert.ToInt32(S);
         Console.WriteLine(num);
-    }
-    catch {
+        }
+        catch {
         Console.WriteLine("Bad String");
-    }
+        }
     }
 }
