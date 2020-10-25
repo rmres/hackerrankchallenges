@@ -18,7 +18,7 @@ class Solution {
     static void countApplesAndOranges(int s, int t, int a, int b, int[] apples, int[] oranges) {
         int countapples = 0;
         int countoranges = 0;
-
+        
         foreach (int apple in apples) {
             if (a + apple <= t && a + apple >= s) {
                 countapples++;
